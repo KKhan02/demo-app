@@ -15,13 +15,14 @@ function Bulb() {
     <div className={`Bulb ${isLit ? "lit" : "dark"}`} >
       
         <div className="Bulb">
-          {/* <i class="fas fa-lightbulb"></i> */}
           <img src={logo}/>    
         </div>
         <button className="ON"
         onClick={()=>{
           console.log("ON");
-          if (isLit === false) setLit(!isLit)}}> ON</button> 
+          if (isLit === false) {
+            setLit(!isLit);
+            }}} autoFocus> ON</button> 
         <button className="OFF"
                  onClick={()=>{
                   console.log("OFF");
