@@ -6,10 +6,7 @@ function Room() {
     const [isLit, setLit] = useState(true);
     let [age, setAge] =useState(19);
 
-    function updateList(){
-        console.log("Button Clicked");
-        setLit(!isLit)
-    }
+   
     
  
   return (

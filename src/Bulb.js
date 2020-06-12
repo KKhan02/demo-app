@@ -15,7 +15,7 @@ function Bulb() {
     <div className={`Bulb ${isLit ? "lit" : "dark"}`} >
       
         <div className="Bulb">
-          <img src={logo}/>    
+          <img src={logo} alt="Bulb image"/>    
         </div>
         <button className="ON"
         onClick={()=>{
